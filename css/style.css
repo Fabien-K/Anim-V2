@@ -303,33 +303,33 @@ p{
 @keyframes turn
 {
 	0%{
-        transform: rotateY(0deg) rotateX(0deg);
+        transform: rotateX(0deg) rotateY(0deg);
         top: 80px;
         left: 110px;
     }
 
     25%{
-        transform: rotateY(90deg) rotateX(90deg);
+        
         top: 80px;
         left: 380px;
     }
 
 
     50%{
-        transform: rotateY(180deg) rotateX(180deg);
+        
         top: 280px;
         left: 380px;
     }
 
     75%{
-        transform: rotateY(270deg) rotateX(270deg);
+        
         top: 280px;
         left: 80px;
     }
 
     
 	100%{
-        transform: rotateY(360deg) rotateX(360deg);
+        transform: rotateX(360deg) rotateY(720deg);
         top: 80px;
         left: 110px;
 	}
